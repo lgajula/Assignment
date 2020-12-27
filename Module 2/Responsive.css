@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color: darkblue;
+}
+body{
+    background-color: lightblue;
+}
+section{
+    padding: 10px;
+}
+p{
+    margin-top: 20px;
+}
+.about{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightskyblue;
+    width: 30%;
+    text-align: center;
+    border-bottom: darkblue solid 2px;
+    border-left: darkblue solid 2px;
+    
+}
+.inner-div{
+    border: darkblue solid 5px;
+    background-color: cyan;
+    position: relative;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Large devices like Desktop */
+@media (min-width: 992px)
+{
+    .col4{
+        float: left;
+        width: 30%;
+    }
+}
+/* for table */
+@media (min-width:768px) and (max-width:991px){
+.col4{
+    float: left;
+    width: 50%;
+}
+.md4{
+    float: left;
+    width : 100%
+}
+}
+/* For mobile devices */
+@media (max-width:767px){
+    .col4{
+        width: 100%;
+        float: left;
+    }
+}
